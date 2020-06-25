@@ -3,8 +3,7 @@ name: ktlint
 on:
   pull_request:
     paths:
-      - "**/*.kt"
-      - ".github/workflows/ktlint.yml"
+      - master
   push:
     branches:
       - !master
