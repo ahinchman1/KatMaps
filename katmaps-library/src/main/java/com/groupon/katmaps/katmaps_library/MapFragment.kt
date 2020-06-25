@@ -82,6 +82,7 @@ class MapFragment : Fragment() {
     var cameraPosition: MapBounds?
         get() {
             val googleMap = googleMap
+            println("Delete This")
             return if (googleMap == null) {
                 deferredCameraPosition
             } else {
