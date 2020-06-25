@@ -7,8 +7,8 @@ on:
       - ".github/workflows/ktlint.yml"
   push:
     branches:
-      - !master
-
+      - "**/*.kt"
+      - ".github/workflows/ktlint.yml"
 jobs:
   ktlint:
     runs-on: ubuntu-latest
