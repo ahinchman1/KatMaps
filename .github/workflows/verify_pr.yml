@@ -18,7 +18,7 @@ jobs:
       - name: "ktlint"
         uses: "vroy/gha-kotlin-linter@v1"
   build_artifacts:
-    name: Verify Build
+    name: Verify build
     runs-on: ubuntu-latest
 
     steps:
@@ -32,7 +32,7 @@ jobs:
         run: ./gradlew clean :katmaps-library:build
 
   test:
-    name: Verify Unit Tests
+    name: Verify unit tests
     runs-on: ubuntu-latest
 
     steps:
