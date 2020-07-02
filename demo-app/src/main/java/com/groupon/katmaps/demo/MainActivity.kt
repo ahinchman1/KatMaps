@@ -34,7 +34,9 @@ import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity(R.layout.activity_main) {
     private val map = MapFragment()
-    private val poisBottomSheetBehavior: BottomSheetBehavior<PoisBottomSheet> by lazy { BottomSheetBehavior.from(poisBottomSheet) }
+    private val poisBottomSheetBehavior: BottomSheetBehavior<PoisBottomSheet> by lazy {
+        BottomSheetBehavior.from(poisBottomSheet)
+    }
     private val poisBottomSheetCollapsedRatio = 0.65f
     private var lastPadding = MapBounds.NO_PADDING
 
