@@ -29,7 +29,6 @@ import androidx.appcompat.app.AppCompatActivity
 import com.google.android.material.bottomsheet.BottomSheetBehavior
 import com.groupon.katmaps.katmaps_library.MapFragment
 import com.groupon.katmaps.katmaps_library.model.*
-import com.groupon.katmaps.katmaps_library.model.MapBounds
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity(R.layout.activity_main) {
